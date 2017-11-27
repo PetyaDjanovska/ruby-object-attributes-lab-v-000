@@ -7,8 +7,8 @@ class Dog
    @name
  end
 
-def breed(inst_breed)
-  @breed= inst_breed
+def breed=(inst_breed)
+  @breed = inst_breed
 end
 
  def breed
